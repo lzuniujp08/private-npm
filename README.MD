@@ -36,14 +36,37 @@ edunpm - http://registry.enpmjs.org/
 * ```* jtnpm```是在使用了```nrm use jtnpm```后的效果，表示当前使用的npm镜像；
 #### 二、如何编写Vue组建
 ##### 2.1 手写
-[如何制作并发布一个vue的组件的npm包](https://blog.csdn.net/hamupp/article/details/79337643)
+1. [如何制作并发布一个vue的组件的npm包](https://blog.csdn.net/hamupp/article/details/79337643)
 
 ##### 2.2 vue-cli
-[Vue-Cli 3 构建项目并发布npm包](https://blog.csdn.net/github_36820944/article/details/82597264)
+1. [Vue-Cli 3 构建项目并发布npm包](https://blog.csdn.net/github_36820944/article/details/82597264)
+
+2. [Vue-Cli 3 构建项目并发布npm包](https://blog.csdn.net/Fundebug/article/details/80620683)
+```
+# 0.安装或卸载vue-cli
+npm uninstall -g vue-cli
+npm install -g @vue/cli
+  
+# 1.用cli构建vue项目
+vue create lzugis-vue
+
+```
+
 
 #### 三、如何将已编写好的Vue组建发布到npm私服
-[npm publish 发布自己的模块（发布包）](https://blog.csdn.net/hsany330/article/details/78627352)
+1. [npm publish 发布自己的模块（发布包）](https://blog.csdn.net/hsany330/article/details/78627352)
 
+##### 2.1 npm发布和撤销包
+```
+# 发布
+npm publish package-name
+
+# 撤销发布
+npm unpublish package-name
+
+# 强制撤销发布
+npm unpublish package-name --force
+```
 
 #### 四、如何调用已发布的Vue组建
 ```
