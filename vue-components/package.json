@@ -5,7 +5,6 @@
   "version": "1.0.0",
   "author": "lzugis <1004740957@qq.com>",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lzuniujp08/private-npm.git"
