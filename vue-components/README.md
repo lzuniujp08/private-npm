@@ -1,22 +1,22 @@
-# jt-components
+# 图例组件
 
-> this is jt's components
+## 组件使用
 
-## Build Setup
-
-``` bash
-# install and use
+#### 1.导入组建
 ```
-# 1.导入组建
 npm install jt-components --save
+```
 
-# 2.在项目中使用组建
+#### 2.在项目中使用组建
+```
+<gw-legend
+ :legend="legendData"
+ class="u-legend"/>
+
 import GwLegend from jt-components
 
 components: {
   ......,
   GwLegend
 }
-
-<say-hello :data="sayData"/>
 ```
