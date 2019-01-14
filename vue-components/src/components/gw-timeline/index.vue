@@ -489,7 +489,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-@import '../../assets/iconfont.css';
+@import '../../../static/iconfont.css';
 
 $timebar-color: #ffaf3c;
 $currenttip-color: #9d0300;

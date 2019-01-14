@@ -137,7 +137,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/iconfont.css';
+@import '../../../static/iconfont.css';
+
 $height: 32px;
 $background: #353a50;
 $background-opacity: 0.8;
